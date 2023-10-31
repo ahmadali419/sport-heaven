@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ignit\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @radix-ui/react-table
+
+PATH: 
+  C:\Users\ignit\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ignit\bin;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Python311\Scripts;C:\Python311;C:\Program Files (x86)\ImageMagick-7.1.0-Q16;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\xampp\php;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git LFS;C:\mongosh-2.0.2-win32-x64\bin;C:\Users\ignit\Downloads\zatca-einvoicing-sdk-231-R3.1.7\zatca-einvoicing-sdk-231-R3.1.7\Apps;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\xampp\php;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Git\cm;C:\Users\ignit\AppData\Local\Microsoft\WindowsApps;C:\Users\ignit\AppData\Roaming\npm;C:\Users\ignit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\7.0\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@radix-ui%2freact-table: Not found
+      at Request.params.callback [as _callback] (C:\Users\ignit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\ignit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\ignit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\ignit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "sportheaven-backend",
+    "version": "1.0.0",
+    "description": "Sport Heaven Project Backend",
+    "main": "server.js",
+    "scripts": {
+      "start": "nodemon server.js",
+      "debug": "nodemon --inspect server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "sportheaven",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "body-parser": "^1.20.2",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "express-fileupload": "^1.4.1",
+      "joi": "^17.10.2",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^7.6.3"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

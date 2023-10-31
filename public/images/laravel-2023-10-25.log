@@ -1,0 +1,87 @@
+[2023-10-25 11:51:39] local.INFO: array (
+  'xeroResponse' => 
+  array (
+  ),
+)  
+[2023-10-25 12:11:44] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'HJUIVNPSJJTDBGQXOESP',
+  ),
+)  
+[2023-10-25 12:11:44] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'HJUIVNPSJJTDBGQXOESP',
+  ),
+)  
+[2023-10-25 12:12:33] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'AQIMYPIBDLDZHKMRMGMR',
+  ),
+)  
+[2023-10-25 13:10:29] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'DHTULWKZDMNJYSDTZYRZ',
+  ),
+)  
+[2023-10-25 13:12:31] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'YMYUEQDSYPUXOCGZAXRZ',
+  ),
+)  
+[2023-10-25 13:14:19] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'NDHDHQWOHPNSHTLNMJUY',
+  ),
+)  
+[2023-10-25 16:00:03] local.INFO: array (
+  'xeroResponse' => 
+  array (
+    'events' => 
+    array (
+    ),
+    'firstEventSequence' => 0,
+    'lastEventSequence' => 0,
+    'entropy' => 'WZRUHSAXYUKPEELBTAXD',
+  ),
+)  
+[2023-10-25 16:07:35] local.INFO: array (
+  'xeroResponse' => 
+  array (
+  ),
+)  

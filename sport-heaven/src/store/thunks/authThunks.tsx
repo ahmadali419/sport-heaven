@@ -100,32 +100,32 @@ export const registerAsync = createAsyncThunk(
 
 export const productAsync = createAsyncThunk(
     'dashboard/product/create',
-    async (credentials: { name: string, price: string; description: string,stock:string }, { rejectWithValue }) => {
-        const token = localStorage.getItem('adminToken'); // Retrieve admin token from local storage
-
-        const id = toast.loading("Please wait...");
-        try {
-            const axiosInstance = axios.create({
-                baseURL: baseURL, // Replace with your API base URL
-                headers: {
-                    'Authorization': `Bearer ${token}`, // Include the admin token in the Authorization header
-                    'Content-Type': 'application/json',
-                },
-            });
-
-            const response = await axiosInstance.post('/dashboard/product/create', credentials);
-            toast.update(id, { render: response.data.message, type: "success", isLoading: false });
-            setTimeout(() => {
-                toast.dismiss(id);
-            }, 3000);
-            return response.data;
-        } catch (error: any) {
-            toast.update(id, { render: error.response?.data?.message, type: "error", isLoading: false });
-            setTimeout(() => {
-                toast.dismiss(id);
-            }, 3000);
-            return false;
-            // return rejectWithValue(error.response?.data?.message);
-        }
+    async (formData: FormData, { rejectWithValue }) => {
+      const token = localStorage.getItem('adminToken');
+  
+      const id = toast.loading("Please wait...");
+  
+      try {
+        const axiosInstance = axios.create({
+          baseURL: baseURL,
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            // Don't need to specify 'Content-Type': 'application/json' as you're using FormData
+          },
+        });
+  
+        const response = await axiosInstance.post('/dashboard/product/create', formData);
+        toast.update(id, { render: response.data.message, type: "success", isLoading: false });
+        setTimeout(() => {
+          toast.dismiss(id);
+        }, 3000);
+        return response.data;
+      } catch (error: any) {
+        toast.update(id, { render: error.response?.data?.message, type: "error", isLoading: false });
+        setTimeout(() => {
+          toast.dismiss(id);
+        }, 3000);
+        return false;
+      }
     }
-);
+  );

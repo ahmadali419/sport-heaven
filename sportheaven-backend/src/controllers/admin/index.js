@@ -1,5 +1,5 @@
-const { getCustomersController,storeProductController,getProductsController,deleteProductController } = require('./dashboardController');
+const { getCustomersController,storeProductController,getProductsController,deleteProductController,getProductController } = require('./dashboardController');
 
 module.exports = {
-  getCustomersController,storeProductController,getProductsController,deleteProductController
+  getCustomersController,storeProductController,getProductsController,deleteProductController,getProductController
 };

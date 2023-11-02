@@ -54,7 +54,7 @@ const CustomersPage = () => {
             accessor: (row:any) => row, // Accessor function to access the row data
             cell: (info:any) => (
                 <Table.Cell>
-                 <Button>
+                 <a href={`/admin/dashboard/addNewProduct?id=${info.row.original._id}`} className="rt-reset-button rt-reset-a rt-BaseButton rt-Button rt-r-size-2 rt-variant-solid">
         <span style={{ marginRight: '4px' }}>Edit</span>
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const CustomersPage = () => {
             <path // Add the correct path for the pencil icon
             />
         </svg>
-    </Button>
+    </a>
     <Button onClick={() => handleDelete(info.row.original._id)}>
         <span style={{ marginRight: '4px' }}>Delete</span>
         <svg
